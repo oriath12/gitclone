@@ -1,10 +1,10 @@
 import os
 import requests
 
-# GitHub API token
+# Put your github api token here
 api_token = "*GITHUB_API_TOKEN*"
 
-# GitHub API endpoint for listing repositories
+# Endpoint we'll be looking at
 api_url = "https://api.github.com/orgs/*INSERT ORGANIZATION HERE*/repos"
 
 # Headers for authentication
